@@ -1,0 +1,25 @@
+{
+  "name": "crud_rest_api_nodejs_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/app.js",
+  "scripts": {
+    "start": "tsc && nodemon  build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "clay k",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "http-errors": "^1.8.0",
+    "joi": "^17.3.0",
+    "mongoose": "^5.11.6",
+    "morgan": "^1.10.0"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
